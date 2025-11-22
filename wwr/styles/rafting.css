@@ -17,11 +17,11 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
 
 }
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
     margin:  0 auto;
 }
 h1, h2 {
@@ -61,7 +61,8 @@ h1 {
     margin: auto;
     position:absolute;
     top: 180px;
-    background-color: aqua;
+    background-color:var(--accent2-color);
+
     
  }
  .hero article img {
