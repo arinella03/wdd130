@@ -1,6 +1,6 @@
 :root {
   --primary-color:#fff;
-  --secondary-color: #90e;
+  --secondary-color:#87CEEB;
   --accent1-color:#000;
   --accent2-color: #eee;
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -23,6 +23,8 @@ body {
 header, main, footer {
     max-width: 840px;
     margin:  0 auto;
+    
+
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -40,12 +42,14 @@ nav, p, section, article {
 }
 .hero {
     position: relative;
+    margin: 20px 0;
 
 }
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    
 }
 h1 {
     position: absolute;
@@ -62,8 +66,18 @@ h1 {
     position:absolute;
     top: 180px;
     background-color:var(--accent2-color);
+    box-shadow: 0 4px 6px rgba(0,0,0); 
+    border-radius: 4px;
 
     
+ }
+  section {
+    background-color: beige;
+    margin: 20px 0 ;
+    padding: 16px;
+    border-radius: 4px;
+    
+
  }
  .hero article img {
     float: right;
@@ -71,6 +85,70 @@ h1 {
     border: 0;
     
  }
+
+ header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+
+
+ }
+ nav ul {
+    display: flex;
+    gap: 20px;
+ }
+ footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+ }
+
+ header, footer {
+    background-color: var(--secondary-color);
+ }
+ .logo {
+    margin: 10px;
+ }
+
+ nav a {
+    text-decoration: none;
+ }
+.adventures {
+    background-color: transparent;
+}
+.adventure-grid {
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
+figcaption {
+    padding: 10px;
+    background-color: var(--accent2-color);
+    font-weight: bold;
+    font-size: 14px;
+}
+footer p {
+    margin-bottom: 15px;
+}
+figure {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
 
 
 
