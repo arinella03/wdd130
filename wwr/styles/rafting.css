@@ -149,6 +149,17 @@ figure img {
     display: block;
     border-radius: 8px;
 }
-
-
+.info {
+    display: grid;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: row;
+}
+.info-item {
+    display: grid;
+    padding: 10px;
+    
+}
 
