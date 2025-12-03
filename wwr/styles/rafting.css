@@ -162,4 +162,10 @@ form {
     padding: 10px;
     
 }
+iframe {
+    width: 500px;
+    height: auto;
+     border: 0;
+     
 
+}
