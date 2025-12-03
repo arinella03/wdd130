@@ -71,14 +71,12 @@ nav, p, section, article {
 
     
  }
-  section {
+ /* section {
     background-color: beige;
     margin: 20px 0 ;
     padding: 16px;
     border-radius: 4px;
-    
-
- }
+    }*/
  .hero article img {
     float: right;
     width: 125px;
