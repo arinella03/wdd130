@@ -151,7 +151,7 @@ figure img {
     display: grid;
     justify-content: center;
 }
-section {
+aside{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
